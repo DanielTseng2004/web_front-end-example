@@ -52,11 +52,27 @@ body {
     /* 陰影 */
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     /* 外框 */
-    border: 1px solid #51515130;
+    border: 1px solid #b0000030;
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
+}
+.wrapper .btn1{
+    background-color: #fe000050;
+    color: #0300b0;
+}
+.wrapper .btn2 {
+    background-color: #1acc4950;
+    color: #b00000;
+}
+.wrapper .btn3 {
+    background-color: #e800d950;
+    color: #00b012;
+}
+.wrapper .btn4 {
+    background-color: #cccc1a50;
+    color: #0300b0;
 }
 
 /* 冒號的意思是選擇虛擬類別 */
@@ -67,4 +83,5 @@ body {
     border: 1px solid #51515150;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: aquamarine;
 }
